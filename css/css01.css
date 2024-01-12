@@ -39,15 +39,26 @@ h4 {
   opacity: 0.8;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-.footer {
+.footer{
   height: 250px;
   font-size: 20px;
-  background-color: darkblue;
-  color: skyblue;
+  background-color: rgb(175, 32, 111);
+  color: white;
   padding-top: 100px;
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+
+.footer a {
+  text-decoration: none;
+  color: pink;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: white;
+}
+
 .containeri {
   position: relative;
   text-align: center;
